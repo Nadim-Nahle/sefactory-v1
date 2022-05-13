@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto.ttf)
+}
+
+*{
+    box-sizing: 'Roboto';
+    margin: 0;
+    padding: 0;
+    font-family: 'SansSerif';
+   
+}
+
+li, a, buttom{
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+container-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+    
+}
+
+
+
+.logo{
+    width:80px;
+    max-width: 100%;
+    max-height: 80%;
+    cursor:pointer;
+    margin-right: auto;
+    padding-top: 10px;
+    
+}
+.navbar{
+    list-style: none;
+    
+}
+.navbar li{
+    display: inline-flex;
+    padding: 0px 10px;
+    
+    flex-wrap: wrap;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+
+button{
+    background-color: #0d0;
+    border-radius: 5px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 3px 20px;
+    font-size: .9rem;
+    font-weight: bolder;
+    cursor:pointer;
+    color: white;
+    border-color:#0d0;
+    height: 39px;
+    
+
+}
+header{
+   
+    color:rgb(255, 255, 255);
+   
+}
+
+.header-content{
+    padding-top: calc(85vmax / 5);
+    padding-bottom: -22vw;
+    justify-content: flex-start;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    box-sizing: content-box;
+    display: flex;
+    font-size: 1.8vw;
+    width: 450px;
+    line-height: 1.5;
+    
+
+}
+
+.head{
+    background-image: url(../pictures/background.jpg);
+    background-repeat: no-repeat;
+    height: 950px;
+    background-blend-mode: darken;
+}
+p{
+    font-size: 1.5vw;
+    
+}
