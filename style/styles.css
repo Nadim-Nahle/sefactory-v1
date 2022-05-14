@@ -341,7 +341,7 @@ p{
     justify-content: center;
     flex-direction: row;
     width:100%;
-    height:auto;
+    height:36%;
     text-align: center;
     background-color: #e6e6e6;
     padding-top: 2%
@@ -374,4 +374,23 @@ p{
     padding: 0.8rem 1.336rem;
     background-color: black;
 }
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+    height: 15%;
     
+}
+.logo2{
+    width:100px;
+    max-width: 100%;
+    max-height: 100%;
+    cursor:pointer;
+    margin-right: auto;
+    padding-top: 10px;
+    color: #18ea19;
+    
+}
