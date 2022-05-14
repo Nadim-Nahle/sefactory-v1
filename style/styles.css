@@ -316,3 +316,22 @@ p{
     max-width: 80%;
     height: auto;
 }
+.container8{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+.logos2{
+    width:24%;
+    padding-top: 2%;
+}
+.title4 h1{
+    color: black;
+    font-size: 45px;
+    padding-top: 2%;
+}
