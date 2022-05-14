@@ -246,3 +246,21 @@ p{
     max-width: 80%;
     height: auto;
 }
+.container5{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    padding-top: 4.5%;
+    text-align: center;
+}
+.title2 h1{
+    color: black;
+    font-size: 30px;
+}
+.logos{
+    max-width: 80%;
+    height: auto;
+}
