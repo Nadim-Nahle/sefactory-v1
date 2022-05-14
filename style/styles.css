@@ -268,3 +268,31 @@ p{
     max-width: 80%;
     height: auto;
 }
+
+.donors{
+    max-width: 100%;
+    height: auto;
+    
+}
+.container7 h1{
+    text-align: center;
+    font-size: 7000px;
+}
+.container6{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    text-align: center;
+    background-color: #e6e6e6;
+}
+.title3 h1{
+    color: black;
+    font-size: 30px;
+    padding-top: 2%;
+}
+.logos1{
+    padding-top: 2%;
+}
