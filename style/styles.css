@@ -295,4 +295,24 @@ p{
 }
 .logos1{
     padding-top: 2%;
+    max-width: 100%;
+    height: auto;
+}
+.container7{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+.title4 h1{
+    color: black;
+    font-size: 40px;
+    padding-top: 2%;
+}
+.donors{
+    max-width: 80%;
+    height: auto;
 }
