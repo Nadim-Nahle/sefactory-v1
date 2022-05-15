@@ -125,87 +125,51 @@ p{
     
 }
 .container{
-    width:90%;
-    overflow: hidden;
-    margin: 20px auto;
-    padding: 20px 0px;
-    height: auto;
-}
-.container ul{
-    padding: 0px;
-    margin: 0px;
-}
-.container ul li {
-    list-style: none;
-    float: left;
-    width:20%;
-    height: auto;
-    margin: 5px 40px 0px 99px;
-    text-align: center;
-    color:#18ea19;
-    box-sizing: border-box;
-}
-.container ul li h1{
-    
-    font-size: calc((1.3 - 1) * 8.5vw + 1rem);
-}
-.container ul li p{
-    
-    font-size: calc((1.3 - 1) * 2.5vw + 1rem);
-    color:black;
-    font-weight: bold;
-}
-.container ul li hr{
-    
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-    font-weight: bold;
-    height: 2px;
-    background-color: black;
-}
-.container2{
-    display: flex;
+    display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    padding: 20px 0px;
-    
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 80%;
+    padding-left: 100px;
 }
-.container2 ul li {
-    list-style: none;
-    float: left;
-    width:36%;
-    height: auto;
-    margin: 5px 80px 0px 99px;
-    text-align: left;
-    color:#18ea19;
-    box-sizing: border-box;
-}
-.container2 ul li h1{
+.container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
     
-    font-size: calc((1.3 - 1) * 8.5vw + 1rem);
-    font-weight: 400;
-    color:black;
+    font-size: 30px;
+    flex: 1 0 auto;
+    height:auto;
+  }
+
+.left1 h1{
+      font-size: 50px;
+      color:#18ea19
+  }
+.centre1 h1{
+    font-size: 50px;
+    color:#18ea19
 }
-.container2 ul li p{
-    
-    font-size: calc((1.3 - 1) * 2.5vw + 1rem);
-    color:black;
+.right1 h1{
+    font-size: 60px;
+    color:#18ea19
 }
-.container2 ul li h2{
-    
-   font-weight: 400;
-   padding-top: 3%;
-    
+.left1 p{
+    font-size: 25px;
+    font-weight: bold;
 }
+.centre1 p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.right1 p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
 .container3{
     background-color: #25E200;
     text-align: center;
@@ -414,3 +378,37 @@ p{
     color: #18ea19;
     
 }
+
+@media all and (max-width:800px){
+        .header-content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+            width:35%;
+            height:auto;
+            padding-top: 20%;
+            padding-left: 5%;
+        }
+        .text-box{
+            align-items: center ;
+        }
+        .header-content h1{
+            font-size: 20px;
+        }
+        .header-content p{
+            font-size: 15px;
+            font-weight: 200;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            width: 80%;
+            padding-left: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
