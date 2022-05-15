@@ -67,8 +67,9 @@ button{
     color: white;
     border-color:#0d0;
     height: 39px;
-    
-
+    }
+.button{
+    padding-left: 36px;
 }
 header{
    
@@ -77,27 +78,46 @@ header{
 }
 
 .header-content{
-    padding-top: calc(85vmax / 5);
-    padding-bottom: -22vw;
-    justify-content: flex-start;
-    padding-right: 7vw;
-    padding-left: 7vw;
-    box-sizing: content-box;
     display: flex;
-    font-size: 1.8vw;
-    width: 450px;
-    line-height: 1.5;
-    
-
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width:35%;
+    height:auto;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+.text-box{
+    align-items: center ;
+}
+.header-content h1{
+    font-size: 53px;
+}
+.header-content p{
+    font-size: 27px;
+    font-weight: 200;
+}
+.text-box button{
+    background-color: #0d0;
+    border-radius: 5px;
+    border-bottom: 10px;
+    border-right: 10px;
+    padding: 3px 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor:pointer;
+    color: white;
+    border-color:#0d0;
+    height: 45px;;
 }
 
+
 .head{
-    background-image: url(../pictures/background.jpg);
+    background-image: url(../pictures/background.png);
     background-repeat: no-repeat;
-    height: 950px;
-    background-blend-mode: darken;
+    background-position: center center;
     filter: brightness(100%);
-    flex-wrap: wrap;
+    height: 120%;
     
 }
 p{
