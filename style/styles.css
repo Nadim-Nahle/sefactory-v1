@@ -26,7 +26,12 @@ container-header{
     
 }
 
-
+#toggle{
+    display:none;
+}
+label{
+    display: none;
+}
 
 .logo{
     width:80px;
@@ -420,5 +425,25 @@ p{
             padding-left: 100px;
             justify-content: center;
             align-items: center;
+        }
+        label{
+            display:block;
+            cursor:pointer;
+        }
+        .navbar{
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .navbar li{
+            display: block;
+            border-bottom: 1px solid #eaeaeb;
+            margin: 0;
+        }
+        #toggle:checked + .navbar {
+            display:block;
+        }
+        .button{
+            display: none;
         }
     }
