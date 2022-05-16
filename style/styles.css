@@ -384,7 +384,11 @@ p{
     color: #18ea19;
     
 }
-
+.newhr{
+    margin-top: 5%;
+    height: 2px;
+    background-color: black;
+}
 @media all and (max-width:800px){
         .header-content{
             display: flex;
